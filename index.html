@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SBX — Social • Brand • Experiences</title>
+<meta name="description" content="SBX — Influencer marketing, event promotions, social media campaigns, content creation and brand awareness.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#070707;--card:#111;--gold:#d4af37;--muted:#a9a9a9;--line:#252525;--white:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--white);font-family:Inter,Arial,sans-serif;line-height:1.6}
+a{color:inherit;text-decoration:none}.container{width:min(1120px,92%);margin:auto}
+nav{position:sticky;top:0;z-index:10;background:rgba(7,7,7,.88);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.nav{height:72px;display:flex;align-items:center;justify-content:space-between}.logo{font-size:28px;font-weight:800;letter-spacing:-2px}.logo span{color:var(--gold)}
+.navlinks{display:flex;gap:28px;font-size:14px;color:#ddd}.navlinks a:hover{color:var(--gold)}
+.btn{display:inline-block;padding:13px 21px;border:1px solid var(--gold);border-radius:4px;font-weight:700;font-size:14px;transition:.2s}.btn.primary{background:var(--gold);color:#080808}.btn:hover{transform:translateY(-2px)}
+.hero{padding:110px 0 80px;background:radial-gradient(circle at 80% 20%,#2a2411 0,#070707 40%)}.eyebrow{color:var(--gold);font-size:13px;font-weight:800;letter-spacing:3px;text-transform:uppercase}
+h1{font-size:clamp(48px,8vw,88px);line-height:.98;letter-spacing:-4px;max-width:850px;margin:18px 0}.hero p{color:#c2c2c2;max-width:650px;font-size:18px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
+section{padding:90px 0}.section-title{font-size:40px;letter-spacing:-1.5px;margin:0 0 12px}.section-sub{color:var(--muted);max-width:680px;margin:0 0 35px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:linear-gradient(145deg,#141414,#0d0d0d);border:1px solid var(--line);padding:26px;border-radius:10px}.card h3{margin:0 0 8px}.card p{color:#aaa;margin:0}.num{color:var(--gold);font-weight:800;font-size:13px;letter-spacing:1px}
+.work{border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#0d0d0d}.work img{width:100%;display:block}.work-copy{padding:24px}.brands{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.brand{padding:20px;border:1px solid var(--line);border-radius:8px;color:#ddd;font-weight:700;background:#0d0d0d}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);border-radius:10px;overflow:hidden}.stat{padding:28px;border-right:1px solid var(--line)}.stat:last-child{border:0}.stat strong{display:block;font-size:30px;color:var(--gold)}.stat span{color:#999;font-size:13px}
+.cta{background:linear-gradient(135deg,#18130a,#0b0b0b);border:1px solid #3a3018;border-radius:14px;padding:55px}.cta h2{font-size:42px;line-height:1.05;margin:0 0 12px}.cta p{color:#aaa;max-width:620px}
+footer{border-top:1px solid var(--line);padding:30px 0;color:#777;font-size:13px}
+@media(max-width:800px){.navlinks{display:none}.grid{grid-template-columns:1fr 1fr}.brands{grid-template-columns:1fr 1fr}.stats{grid-template-columns:1fr 1fr}.stat:nth-child(2){border-right:0}.stat:nth-child(-n+2){border-bottom:1px solid var(--line)}}
+@media(max-width:520px){.hero{padding:80px 0 60px}h1{font-size:50px;letter-spacing:-2.5px}.grid,.brands,.stats{grid-template-columns:1fr}.stat{border-right:0!important;border-bottom:1px solid var(--line)!important}.stat:last-child{border:0!important}.cta{padding:32px}.cta h2{font-size:32px}}
+</style>
+</head>
+<body>
+<nav><div class="container nav">
+  <a class="logo" href="#">S<span>B</span>X</a>
+  <div class="navlinks"><a href="#services">Services</a><a href="#work">Work</a><a href="#brands">Brands</a><a href="#contact">Contact</a></div>
+  <a class="btn" href="#contact">Start a Campaign</a>
+</div></nav>
+
+<header class="hero"><div class="container">
+  <div class="eyebrow">Social • Brand • Experiences</div>
+  <h1>We turn brands into conversations.</h1>
+  <p>SBX builds creator-led campaigns, event promotions and social media experiences designed for real-world visibility and digital impact.</p>
+  <div class="actions"><a class="btn primary" href="#work">View Our Work</a><a class="btn" href="#contact">Work With SBX</a></div>
+</div></header>
+
+<main>
+<section id="services"><div class="container">
+  <div class="eyebrow">What we do</div><h2 class="section-title">Built for brands that want attention.</h2>
+  <p class="section-sub">From creator selection to campaign execution, SBX handles the moving parts and keeps the content focused on your objective.</p>
+  <div class="grid">
+    <div class="card"><div class="num">01</div><h3>Influencer Marketing</h3><p>Creator shortlisting, coordination, branded reels and campaign execution.</p></div>
+    <div class="card"><div class="num">02</div><h3>Event Promotion</h3><p>Pre-buzz, event-day coverage, creator activations and amplification.</p></div>
+    <div class="card"><div class="num">03</div><h3>Social Media Campaigns</h3><p>Campaign concepts, content distribution and audience engagement.</p></div>
+    <div class="card"><div class="num">04</div><h3>Content Creation</h3><p>Reels and promotional social content built around the campaign.</p></div>
+    <div class="card"><div class="num">05</div><h3>Brand Awareness</h3><p>Creator collaborations that put products and services in front of relevant audiences.</p></div>
+    <div class="card"><div class="num">06</div><h3>Digital Growth</h3><p>Audience-focused digital promotion and practical campaign planning.</p></div>
+  </div>
+</div></section>
+
+<section id="work"><div class="container">
+  <div class="eyebrow">Selected work</div><h2 class="section-title">Brands we've promoted.</h2>
+  <p class="section-sub">A selection of brands and projects across automotive, entertainment, hospitality, healthcare and consumer categories.</p>
+  <div class="work">
+    <img src="assets/brands-collage.png" alt="Selected SBX brand campaigns">
+    <div class="work-copy"><h3>Creator-led campaigns & event promotions</h3><p>Automotive, nightlife, food, festival, healthcare and product promotion campaigns.</p></div>
+  </div>
+</div></section>
+
+<section id="brands"><div class="container">
+  <div class="eyebrow">Selected clients</div><h2 class="section-title">Brands & projects.</h2>
+  <div class="brands">
+    <div class="brand">KTM India</div><div class="brand">Triumph India</div><div class="brand">Insomnia Night Club</div><div class="brand">Naughty Kodi</div>
+    <div class="brand">IndiaJoy Festival</div><div class="brand">Lifeline Hospitals</div><div class="brand">ZYTM Pub</div><div class="brand">Prathibha Biotech</div>
+  </div>
+</div></section>
+
+<section><div class="container">
+  <div class="stats">
+    <div class="stat"><strong>8+</strong><span>Selected brands & projects</span></div>
+    <div class="stat"><strong>360°</strong><span>Campaign support</span></div>
+    <div class="stat"><strong>Reels</strong><span>Creator-first content</span></div>
+    <div class="stat"><strong>HYD</strong><span>Local creator focus</span></div>
+  </div>
+</div></section>
+
+<section id="contact"><div class="container"><div class="cta">
+  <div class="eyebrow">Let's work together</div><h2>Have a campaign in mind?</h2>
+  <p>Tell us your brand, objective and campaign requirements. SBX can build a creator and digital promotion plan around it.</p>
+  <div class="actions"><a class="btn primary" href="mailto:hello@sbx.example">Email SBX</a><a class="btn" href="#services">Explore Services</a></div>
+  <p style="font-size:12px;margin-top:18px;color:#777">Replace the placeholder email above with your business email before publishing.</p>
+</div></div></section>
+</main>
+
+<footer><div class="container">© 2026 SBX — Social • Brand • Experiences</div></footer>
+</body>
+</html>
